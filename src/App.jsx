@@ -46,9 +46,14 @@ function CaseCard({ item }) {
   )
 }
 
-function ComponentButton() {
+const BUTTON_STATE_STYLES = {
+  Default:
+    'rounded-full bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-slate-800',
+}
+
+function ComponentButton({ componentProps: { state } }) {
   return (
-    <button className="rounded-full bg-black px-4 py-2 text-sm font-medium text-white">
+    <button className={BUTTON_STATE_STYLES[state]}>
       Neuer Fall
     </button>
   )
@@ -64,7 +69,7 @@ export default function App() {
       <header className="border-b border-slate-200 bg-[#00FF37]">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
           <h1 className="text-lg font-semibold text-slate-900">Fallübersicht</h1>
-          <ComponentButton />
+          <ComponentButton componentProps={{ state: 'Default' }} />
         </div>
       </header>
 
