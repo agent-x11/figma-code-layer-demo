@@ -53,7 +53,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans">
-      <header className="border-b border-slate-200 bg-white">
+      <header className="border-b border-slate-200 bg-[#00FF37]">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
           <h1 className="text-lg font-semibold text-slate-900">Fallübersicht</h1>
           <button className="bg-[#ED2F32] px-4 py-2 text-sm font-medium text-white">
