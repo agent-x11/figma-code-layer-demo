@@ -4,5 +4,11 @@
   --color-brand-50: #eef6ff;
   --color-brand-500: #2f6fed;
   --color-brand-600: #2559c4;
+  --color-brand-700: #1d4699;
+
+  --color-danger-500: #ed2f32;
+  --color-danger-600: #c92427;
+  --color-danger-700: #a31c1f;
+
   --font-sans: "Inter", system-ui, sans-serif;
 }
