@@ -47,7 +47,8 @@ function CaseCard({ item }) {
 }
 
 const BUTTON_STATE_STYLES = {
-  Default: 'rounded-full bg-black px-4 py-2 text-sm font-medium text-white',
+  Default:
+    'rounded-full bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-slate-800',
 }
 
 function ComponentButton({ componentProps: { state } }) {
