@@ -69,7 +69,7 @@ export default function App() {
               onClick={() => setFilter(f)}
               className={`rounded-full border px-3 py-1 text-sm ${
                 filter === f
-                  ? 'border-brand-500 bg-[#ED2F2F] text-white'
+                  ? "border-brand-500 bg-brand-500 font-['Inter:Regular'] font-normal leading-5 text-white"
                   : 'border-slate-300 bg-white text-slate-700 hover:bg-slate-100'
               }`}
             >
